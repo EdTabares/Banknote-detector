@@ -1,0 +1,44 @@
+{
+    "dataset_info": {
+        "total_samples": 1372,
+        "authentic": 762,
+        "fake": 610,
+        "train_size": 960,
+        "test_size": 412
+    },
+    "logistic_regression": {
+        "error": 0.021844660194174748,
+        "accuracy": 0.9781553398058253,
+        "precision": 0.953125,
+        "recall": 1.0,
+        "f1_score": 0.976,
+        "confusion_matrix": [
+            [
+                220,
+                9
+            ],
+            [
+                0,
+                183
+            ]
+        ]
+    },
+    "neural_network": {
+        "error": 0.0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+            [
+                229,
+                0
+            ],
+            [
+                0,
+                183
+            ]
+        ],
+        "epochs_trained": 100
+    }
+}
